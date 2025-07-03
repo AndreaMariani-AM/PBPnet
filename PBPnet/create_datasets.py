@@ -13,8 +13,8 @@ import h5py
 from dataset_utils import interleave_loci
 
 # output directory
-outDir="/hpcnfs/scratch/DP/amariani/Amariani/BPNet_data/output/folds"
-folds="SUZ12_5kb"
+outDir="/outdir"
+folds="protein_5kb"
 if not os.path.exists(os.path.join(outDir, folds)):
 	os.makedirs(os.path.join(outDir,  folds))
 
