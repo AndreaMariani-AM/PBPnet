@@ -6,7 +6,6 @@ setup(
     author='Andrea Mariani',
     author_email='andrea.mariani1@icloud.com',
     packages=['bpnetlite'],
-    scripts=['bpnet', 'chrombpnet'],
     url='https://github.com/AndreaMariani-AM/PBPnet',
     license='LICENSE.txt',
     description='PBPnet is a modification of the original bpnet-lite.',
