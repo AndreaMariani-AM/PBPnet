@@ -1,19 +1,4 @@
 # Single python file to run training of BPNet model
-
-import torch
-from custom_bpnet import customBPNet
-import os
-import utility_loader
-import h5py
-import pickle
-import seaborn as sns
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-
-folds_list = []
-model_list = []
-
 import torch
 from custom_bpnet import customBPNet
 import os
